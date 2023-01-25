@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins';
+}
+html {
+    min-height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    margin: 0 auto;
+    position: absolute;
+    left: 70%;
+    right: 20%;
+    cursor: pointer;
+}
+
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: red;
+}
+
+.container div p {
+    display: flex;
+    font-size: 16px;
+    width: 85%;
+    height: 50%;
+    color: #a8adb7;
+    justify-content: center;
+}
+
